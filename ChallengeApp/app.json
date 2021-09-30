@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Buzzle",
+    "slug": "buzzle",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/icon.png",
+    "splash": {
+      "image": "./src/assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.zboson.buzzle",
+      "buildNumber": "1.0.1",
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey": "REMOVED FOR SECURITY REASONS"
+      }
+    },
+    "android": {
+      "package": "com.zboson.buzzle",
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/images/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+        },
+        "config": {
+          "googleMaps":{
+            "apiKey": "REMOVED FOR SECURITY REASONS"
+          }
+      }
+    },
+    "web": {
+      "favicon": "./src/assets/images/favicon.png"
+    }
+  }
+}
